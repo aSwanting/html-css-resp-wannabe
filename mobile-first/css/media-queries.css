@@ -1,0 +1,44 @@
+@media screen and (min-width: 767px) {
+    .row {
+        flex-wrap: nowrap;
+    }
+
+    .lessons .col {
+        width: 50%;
+    }
+
+    .steps .col {
+        width: calc(100% / 3);
+    }
+
+    .why-us .col-left {
+        width: 40%;
+    }
+
+    .why-us .col-right {
+        width: 60%;
+    }
+
+    .lessons .row,
+    .steps .row,
+    .why-us .row {
+        gap: 0
+    }
+
+    .why-us {
+        background-color: transparent;
+    }
+
+    .lessons,
+    .steps,
+    .why-us {
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 1139px) {
+    .container {
+        max-width: 1140px;
+    }
+
+}
