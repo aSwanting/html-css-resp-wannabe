@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us [class*="col"] {
+        width: 100%;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .lessons .row,
+    .steps .row,
+    .why-us .row {
+        gap: 3rem;
+    }
+
+    .why-us {
+        margin: 0;
+        padding-top: 3rem;
+        background-color: black;
+    }
+
+    .lessons,
+    .steps,
+    .why-us {
+        padding-bottom: 3rem;
+    }
+
+}
